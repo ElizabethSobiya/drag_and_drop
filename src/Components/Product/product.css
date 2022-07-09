@@ -1,0 +1,54 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.prdt{
+    width: calc(25%-22px);
+    /* border: 2px solid black; */
+    margin: 15px 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 0 1em rgba(10, 10, 10, 0.3);
+}
+h1{
+    color: black;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.arrBtn{
+    background-color:#f5a623;
+    color: #fff;
+    border: 2px solid #f5a623;
+    border-radius: 0;
+    margin: 50px 450px 100px 450px;
+    /* padding: 2rem; */
+    transition: all 0.2s ease;
+    height: 3rem;
+    width:30rem;
+    font-size: 90%;
+    font-weight: 600;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.arrBtn:hover{
+    background-color: #435c70;
+    border: 2px solid #f5a623;
+    color: #f79b08;
+}
